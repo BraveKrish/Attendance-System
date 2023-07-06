@@ -1,0 +1,47 @@
+ <div class="subtitle">
+                                <h5 style="color: green;">Add New Teacher</h5>
+                            </div>
+                            <div class="teacher-form">
+                            <form action="form_action.php" method="POST">
+                                <div class="form-row">
+                                    <div class="form-group text-left col-md-6">
+                                        <label>Teacher Id</label>
+                                        <input type="text" name="teacher_id" class="form-control">
+                                    </div>
+                                    <div class="form-group text-left col-md-6">
+                                        <label>Teacher Name</label>
+                                        <input type="text" name="teacher_name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group text-left col-md-6">
+                                        <label>Email</label>
+                                        <input type="text" name="email" class="form-control">
+                                    </div>
+                                    <div class="form-group text-left col-md-6">
+                                        <label>Password</label>
+                                        <input type="text" name="password" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group text-left">
+                                    <label>Address</label>
+                                    <textarea name="address" class="form-control" rows="2"></textarea>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group text-left col-md-6">
+                                        <label>Date Of Join</label>
+                                        <input type="date" name="doj" class="form-control">
+                                    </div>
+                                    <div class="form-group text-left col-md-4">
+                                        <label>Grade Id</label>
+                                        <select name="teacher_grade_id" class="form-control">
+                                            <option selected>Choose...</option>
+                                            <option>Grade 10</option>
+                                            <option>Grade 11</option>
+                                            <option>Grade 12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" name="teacher_submit" class="btn btn-primary">Save</button>
+                            </form>
+                            </div>
